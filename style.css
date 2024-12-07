@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header .cta {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+header .cta:hover {
+    background-color: #ff4520;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+#sobre {
+    background-color: #fff;
+}
+
+.sobre-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.foto-sobre {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#sobre p {
+    text-align: justify;
+    font-size: 1.1em;
+    max-width: 7000px;
+}
+
+#habilidades {
+    background-color: #f9f9f9;
+}
+
+#habilidades ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+#projetos {
+    background-color: #fff;
+}
+
+.projeto {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.foto-projeto {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.projeto h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1.1em;
+}
+
+#contato {
+    background-color: #f9f9f9;
+}
+
+#contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+}
+
+#contato form input,
+#contato form textarea {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+#contato form button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#contato form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
